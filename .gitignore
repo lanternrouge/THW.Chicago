@@ -13,3 +13,6 @@
 
 # Edited files
 *~
+
+# Derived files
+*.pdf

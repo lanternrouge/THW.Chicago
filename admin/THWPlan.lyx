@@ -26,7 +26,17 @@
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue"
 \papersize default
 \use_geometry true
 \use_amsmath 1
@@ -102,20 +112,301 @@ height "1pt"
 Overview and Goals
 \end_layout
 
+\begin_layout Standard
+Today, serious science is inseparable from computation: scientists spend
+ the majority of their day sitting at a computer writing software in a variety
+ of languages on a variety of platforms to analyze data, to solve models,
+ and to compute answers to scientific questions.
+ Scientists have become a new type of software engineer -- a research software
+ developer -- whether they like it or not.
+ And, most scientists are horribly bad at programming: young scientists
+ receive no training on how to build software because the scientific community
+ assumes that programming is easy to pick up for anyone who is smart and
+ technical.
+ This belief leads to shoddy research which often violates the scientific
+ method and suffers from hidden errors as well as a lack of reproducibility,
+ replicability, and openness.
+ The lack of software engineering skills also limits the type of problems
+ researchers can study, preventing them from working on problems with large
+ computational requirements and/or datasets, both of which are often central
+ challenges of working at the frontiers of science.
+\end_layout
+
+\begin_layout Standard
+The Hacker Within at the University of Chicago (THWUC) exists to solve this
+ problem by providing an organization to train young researchers in scientific
+ computation through regular learning lunches and workshops.
+ These efforts are based on and inspired by 
+\begin_inset CommandInset href
+LatexCommand href
+name "the Hacker Within"
+target "http://hackerwithin.org/thw/"
+
+\end_inset
+
+ at the University of Wisconsin and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Software Carpentry"
+target "http://software-carpentry.org/"
+
+\end_inset
+
+.
+ The board will provide hands on support to train the first generation of
+ students, but success depends on students taking the interest and developing
+ the skills to drive this initiative.
+ 
+\end_layout
+
+\begin_layout Standard
+Our lectures and workshops will train students in four primary areas of
+ computation, which are necessary for successful research:
+\end_layout
+
+\begin_layout Itemize
+Unix: this operating system is the foundation for serious scientific computation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Software development skills: these skills (version control, programming
+ style, software design, debugging, testing, VVUQ) are language-independent
+ and apply to any software development effort.
+\end_layout
+
+\begin_layout Itemize
+Languages: different languages (Python, C++, R, MATLAB, etc.)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+If you really insist, we can include FORTRAN\SpecialChar \ldots{}
+
+\end_layout
+
+\end_inset
+
+ are appropriate for different problems.
+\end_layout
+
+\begin_layout Itemize
+Data: key data skills include how to build a data cleaning pipeline, data
+ provenance, and using databases to manage large datasets.
+\end_layout
+
 \begin_layout Subsection
 Benefits to Graduate Students
+\end_layout
+
+\begin_layout Standard
+Mastering computational `human capital' provides many benefits to graduate
+ students:
+\end_layout
+
+\begin_layout Itemize
+Less friction and frustration when programming
+\end_layout
+
+\begin_layout Itemize
+Tackle more challenging problems and write a better thesis
+\end_layout
+
+\begin_layout Itemize
+Research which is easier to defend and reproduce
+\end_layout
+
+\begin_layout Itemize
+More citations for your research from publishing good, open code 
+\end_layout
+
+\begin_layout Itemize
+Better job placement upon graduation because you have a competitive advantage
+ vis-a-vis the computationally unskilled
+\end_layout
+
+\begin_layout Itemize
+A well-paid `outside option' developing software if you choose not to continue
+ your career in academia
 \end_layout
 
 \begin_layout Subsection
 Benefits to Supervisors
 \end_layout
 
+\begin_layout Itemize
+Students can take over more challenging computational work
+\end_layout
+
+\begin_layout Itemize
+Tackle more challenging problem
+\end_layout
+
+\begin_layout Itemize
+More defensible and reproducible research
+\end_layout
+
+\begin_layout Itemize
+More citations from publishing high-quality, open code
+\end_layout
+
+\begin_layout Itemize
+Better placement for students
+\end_layout
+
+\begin_layout Subsection
+Services Provided
+\end_layout
+
+\begin_layout Standard
+THWUC will provide the following services:
+\end_layout
+
+\begin_layout Itemize
+`Learning Lunches': regular (monthly, bimonthly, or weekly depending on
+ demand) brown bag lunches where students can learn a new computational
+ skill during lunch hour.
+\end_layout
+
+\begin_layout Itemize
+Workshops: quarterly (or so) classes dedicated to more intensive training.
+ These workshop will be similar to the recent Software Carpentry boot camp
+ (which was oversubscribed by 150 students).
+\end_layout
+
+\begin_layout Itemize
+Help/Forum: if there is demand, we can create some kind of support forum
+ to help students solve computational questions and acquire further training.
+\end_layout
+
+\begin_layout Section
+Leadership
+\end_layout
+
+\begin_layout Standard
+The board of THWUC currently consists of:
+\end_layout
+
+\begin_layout Itemize
+Robert Jacob: 
+\begin_inset CommandInset href
+LatexCommand href
+target "jacob@mcs.anl.gov"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Anthony Scopatz: 
+\begin_inset CommandInset href
+LatexCommand href
+target "scopatz@gmail.com"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Benjamin S.
+ Skrainka: 
+\begin_inset CommandInset href
+LatexCommand href
+target "skrainka@uchicago.edu"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Short-term: Schedule
 \end_layout
 
+\begin_layout Standard
+Because the Spring quarter is almost over, our goals for this quarter are:
+\end_layout
+
+\begin_layout Itemize
+Initial learning lunch to kick off THWUC, provide a framework and advice
+ for how to acquire computational skills, and conclude with a lecture on
+ VVUQ, which provides a nice framework to discuss other subjects.
+ This meeting should also attract some graduate student leaders to run THWUC
+ with our guidance.
+\end_layout
+
+\begin_layout Itemize
+A second lunch on Unix, version control, or some generally useful subject.
+\end_layout
+
+\begin_layout Itemize
+Setup a website (could someone map out the design requirements for the website?).
+\end_layout
+
 \begin_layout Section
 Long-term: Road-map for the next year and beyond
+\end_layout
+
+\begin_layout Standard
+Longer-term, i.e.
+ for academic year 2012-13, we need to get students to take over leadership
+ and drive the agenda.
+\end_layout
+
+\begin_layout Itemize
+Regular learning lunches
+\end_layout
+
+\begin_layout Itemize
+Quarterly workshops
+\end_layout
+
+\begin_layout Itemize
+Irregular lectures by computational luminaries
+\end_layout
+
+\begin_layout Section
+Incentives
+\end_layout
+
+\begin_layout Standard
+We need to make THWUC incentive compatible so that graduate students will
+ take participation seriously.
+ In particular, we need a method to charge departments or students who register
+ but do not attend, wasting a space another student could have used.
+\end_layout
+
+\begin_layout Section
+Website
+\end_layout
+
+\begin_layout Standard
+The website's requirements are:
+\end_layout
+
+\begin_layout Itemize
+Publicize organization's goals
+\end_layout
+
+\begin_layout Itemize
+Solicit student participation
+\end_layout
+
+\begin_layout Itemize
+Schedule of events
+\end_layout
+
+\begin_layout Itemize
+Contact information
+\end_layout
+
+\begin_layout Itemize
+???
 \end_layout
 
 \end_body
