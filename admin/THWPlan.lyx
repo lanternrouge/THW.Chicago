@@ -115,18 +115,18 @@ Overview and Goals
 \begin_layout Standard
 Today, serious science is inseparable from computation: scientists spend
  the majority of their day sitting at a computer writing software in a variety
- of languages on a variety of platforms to analyze data, to solve models,
- and to compute answers to scientific questions.
+ of languages on a multitude of platforms to analyze data, solve models,
+ and compute answers to pertinent questions in their field.
  Scientists have become a new type of software engineer -- a research software
  developer -- whether they like it or not.
- And, most scientists are horribly bad at programming: young scientists
- receive no training on how to build software because the scientific community
- assumes that programming is easy to pick up for anyone who is smart and
- technical.
+ And, most scientists are horribly bad at programming.
+ Young scientists receive no training on how to build software because the
+ scientific community assumes that programming is easy to pick up for anyone
+ who is smart and technical.
  This belief leads to shoddy research which often violates the scientific
  method and suffers from hidden errors as well as a lack of reproducibility,
  replicability, and openness.
- The lack of software engineering skills also limits the type of problems
+ The absence of software engineering skills also limits the type of problems
  researchers can study, preventing them from working on problems with large
  computational requirements and/or datasets, both of which are often central
  challenges of working at the frontiers of science.
@@ -403,10 +403,6 @@ Schedule of events
 
 \begin_layout Itemize
 Contact information
-\end_layout
-
-\begin_layout Itemize
-???
 \end_layout
 
 \end_body
