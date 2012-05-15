@@ -176,18 +176,8 @@ Software development skills: these skills (version control, programming
 \end_layout
 
 \begin_layout Itemize
-Languages: different languages (Python, C++, R, MATLAB, etc.)
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-If you really insist, we can include FORTRAN\SpecialChar \ldots{}
-
-\end_layout
-
-\end_inset
-
- are appropriate for different problems.
+Languages: different languages -- compiled (C++, Fortran) or intrepeted
+ (Python, R, MATLAB, etc.) -- are appropriate for different problems.
 \end_layout
 
 \begin_layout Itemize
@@ -200,12 +190,24 @@ Benefits to Graduate Students
 \end_layout
 
 \begin_layout Standard
-Mastering computational `human capital' provides many benefits to graduate
- students:
+Mastering the craft of scientific programming provides many benefits to
+ graduate students:
 \end_layout
 
 \begin_layout Itemize
 Less friction and frustration when programming
+\end_layout
+
+\begin_layout Itemize
+Less feeling you're 
+\begin_inset Quotes eld
+\end_inset
+
+wasting your time
+\begin_inset Quotes erd
+\end_inset
+
+ learning tools of programming
 \end_layout
 
 \begin_layout Itemize
@@ -217,7 +219,8 @@ Research which is easier to defend and reproduce
 \end_layout
 
 \begin_layout Itemize
-More citations for your research from publishing good, open code 
+More citations for your research when accompanied by easy-to-read, good,
+ open code 
 \end_layout
 
 \begin_layout Itemize
@@ -226,8 +229,8 @@ Better job placement upon graduation because you have a competitive advantage
 \end_layout
 
 \begin_layout Itemize
-A well-paid `outside option' developing software if you choose not to continue
- your career in academia
+The skills to persue an `outside option' developing software if you choose
+ not to continue your career in academia
 \end_layout
 
 \begin_layout Subsection
@@ -271,7 +274,7 @@ THWUC will provide the following services:
 \begin_layout Itemize
 Workshops: quarterly (or so) classes dedicated to more intensive training.
  These workshop will be similar to the recent Software Carpentry boot camp
- (which was oversubscribed by 150 students).
+ held on campus in April (which was oversubscribed by 150 students).
 \end_layout
 
 \begin_layout Itemize
@@ -390,7 +393,7 @@ The website's requirements are:
 \end_layout
 
 \begin_layout Itemize
-Publicize organization's goals
+Publicize organization's goals/manifesto.
 \end_layout
 
 \begin_layout Itemize
