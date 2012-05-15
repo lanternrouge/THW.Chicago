@@ -13,6 +13,7 @@
 
 # Edited files
 *~
+.DS_Store
 
 # Derived files
 *.pdf
